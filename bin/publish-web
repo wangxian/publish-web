@@ -1,0 +1,3 @@
+#!/bin/sh
+dirname=$(cd $(dirname $(readlink -f $0)); cd ../; pwd)
+coffee $dirname/index.coffee | tee -a $dirname/publish.log

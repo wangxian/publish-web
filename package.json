@@ -1,0 +1,23 @@
+{
+  "name": "publish-web",
+  "version": "0.0.0",
+  "description": "publish web",
+  "main": "index.coffee",
+  "scripts": {
+    "test" : "coffee index.coffee",
+    "start": "./bin/publish-web"
+  },
+  "dependencies": {
+    "commander": "",
+    "colors"   : "",
+    "shelljs"  : ""
+  },
+  "repository": "",
+  "keywords": [
+    "publish",
+    "CDN",
+    "web"
+  ],
+  "author": "WangXian",
+  "license": "BSD"
+}
